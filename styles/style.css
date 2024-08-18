@@ -8,8 +8,8 @@
 
 .logo {
   object-fit: cover;
-/*   width: 130px;
-  height: 105px; */
+  width: 130px;
+  height: 105px;
 }
 
 .address {
