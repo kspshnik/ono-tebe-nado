@@ -34,8 +34,6 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  height: 100%;
-  width: 100%;
 }
 
 .section-title {
@@ -75,8 +73,9 @@
   font-size: 18px;
   color: #000;
   text-transform: lowercase;
-  border-bottom: solid 1px #000;
+  text-decoration: underline;
   list-style: circle inside;
+  opacity: 1;
 }
 
 .header__links-list-item:first-of-type {
@@ -168,9 +167,8 @@
   text-transform: lowercase;
   font-size: 20px;
   color: #000;
-  text-decoration: none;
-  border-bottom: solid 1px #000;
-}
+  text-decoration: underline;
+  }
 
 .card {
   position: relative;
@@ -204,6 +202,11 @@
   z-index: 2;
 }
 
+.card__link {
+  height: 100%;
+  width: 100%;
+}
+
 .card_type_film {
   background:  url('../images/card-lot-01.jpg') no-repeat center / cover;
 }
@@ -221,7 +224,7 @@
 
 .about {
   margin: 0;
-  padding: 0 24px 90px 24px;
+  padding: 20px 24px 110px 24px;
   display: grid;
   grid-template-rows: 240px min-content;
   grid-template-columns: 334px 1fr;
@@ -266,4 +269,72 @@
   color: #000;
   font-size: 20px;
   line-height: 1.2;
+}
+
+/* Подвал сайта, блок footer */
+
+.footer {
+  margin: 0;
+  padding: 90px 50px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: start;
+  column-gap: 185px;
+}
+
+.footer__menu {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__menu-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: center;
+  gap: 0;
+}
+
+.footer__menu-list-item {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #000;
+  text-transform: lowercase;
+  text-decoration: underline;
+  list-style: none outside;
+  opacity: 1;
+}
+
+.footer__menu-list-item:hover {
+  opacity: 0.7;
+}
+
+
+.footer__menu-list-item_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: start;
+  column-gap: 48px;
+}
+
+.footer__social-list-item {
+  list-style: none outside;
+}
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  object-position: center;
 }

@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./fonts/fonts.css" type="text/css">
     <link rel="stylesheet" href="./styles/global.css" type="text/css">
-    <!-- Удалить перед сдачей работы -->
-    <link rel="stylesheet" href="./styles/--save-dev.css" type="text/css">
     <link rel="stylesheet" href="./styles/style.css" type="text/css">
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
@@ -46,7 +44,7 @@
         <h2 class="lots__heading section-title">лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
-            <a href="#1" class="link-wrapper">
+            <a href="#1" class="link-wrapper card__link">
               <article class="card card_type_film">
                 <div class="overlay"></div>
                 <h3 class="card__title">
@@ -59,7 +57,7 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a href="#2" class="link-wrapper">
+            <a href="#2" class="link-wrapper card__link">
               <article class="card card_type_book">
                 <div class="overlay"></div>
                 <h3 class="card__title">
@@ -72,7 +70,7 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a href="#3" class="link-wrapper">
+            <a href="#3" class="link-wrapper card__link">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
                 <h3 class="card__title">
@@ -103,5 +101,45 @@
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <address class="address">
+          <a href="tel:+9 999 555 5555">+9 999 555 5555</a>
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+<p>наб. Принсенграхт 263-</br>265, Амстердам</p>
+      </address>
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
+          <li class="footer__menu-list-item footer__menu-list-item_active">
+            <a href="#cover" class="link-wrapper">главная</a>
+          </li>
+          <li class="footer__menu-list-item">
+           <a href="#lots" class="link-wrapper">посмотреть лоты</a>
+          </li>
+          <li class="footer__menu-list-item">
+            <a href="#about" class="link-wrapper">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
+          <a target=_blank href="https://youtube.com" class="link-wrapper">
+            <img
+              src="./images/yt.svg"
+              alt="Логотип YouTube"
+              class="footer__social-icon">
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a target=_blank href="https://vk.com" class="link-wrapper">
+            <img src="./images/vk.svg" alt="Логотип ВК" class="footer__social-icon">
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a target=_blank href="https://pinterest.com" class="link-wrapper">
+            <img src="./images/pinterest.svg" alt="Логотип Pinterest" class="footer__social-icon">
+          </a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
