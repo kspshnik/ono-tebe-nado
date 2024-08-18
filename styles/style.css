@@ -299,7 +299,7 @@
 }
 
 .about__column {
-  grid-area: story;;
+  grid-area: story;
   margin: 0;
   padding: 0;
   display: flex;
