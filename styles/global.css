@@ -1,13 +1,8 @@
 *,
 *::before,
-*::after {
+*::after
+{
   box-sizing: border-box;
-}
-
-body {
-  min-width: 1100px;
-  margin: 0;
-  font-family: Raleway, sans-serif;
 }
 
 h1,
@@ -20,15 +15,25 @@ p,
 ul,
 ol,
 li,
-blockquote {
+blockquote
+{
   margin: 0;
   padding: 0;
 }
 
-a {
+a
+{
   color: inherit;
 }
 
-img {
+img
+{
   width: 100%;
+}
+
+body
+{
+  max-inline-size: 1440px;
+  margin: 0 auto;
+  font-family: Raleway, sans-serif;
 }
